@@ -1,0 +1,30 @@
+{
+    "classes": [
+        "width100",
+        "margin5",
+        "hearding",
+        "lightblueBg",
+        "bgWhiteColorBlack",
+        "bgblackColorwhite",
+        "locationPanel",
+        "quoteIcon",
+        "fontsize29",
+        "bold",
+        "images",
+        "mat-icon",
+        "font50",
+        "padding20",
+        "paddingTp34",
+        "footer",
+        "paddingBt34",
+        "below",
+        "underline",
+        "width90",
+        "width80",
+        "GetStartedButton",
+        "mat-button",
+        "backgroundImage",
+        "gallary",
+        "searchIcon"
+    ]
+}

@@ -1,0 +1,84 @@
+[
+    {
+        "id": "sd_2qwwaXROCsdElOAj",
+        "type": "tab",
+        "createdDate": "2022-06-17T12:00:39.450Z",
+        "label": "section1",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "section1Component"
+    },
+    {
+        "id": "sd_PK4Nu5GAoPKVZV1T",
+        "type": "OnInit",
+        "z": "sd_2qwwaXROCsdElOAj",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_PK4Nu5GAoPKVZV1T",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_Bby5hbccfHYQhrnO"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "section1Component"
+    },
+    {
+        "id": "sd_Bby5hbccfHYQhrnO",
+        "type": "PageVariables",
+        "z": "sd_2qwwaXROCsdElOAj",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [
+            {
+                "textIp": "section1",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": ""
+                }
+            }
+        ],
+        "functionName": "sd_Bby5hbccfHYQhrnO",
+        "category": "Function",
+        "x": 165,
+        "y": 20,
+        "wires": [
+            [
+                "sd_qkbu6lGFXgNlfguX"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_qkbu6lGFXgNlfguX",
+        "type": "Script",
+        "z": "sd_2qwwaXROCsdElOAj",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.section1={\n        \"logo\":\"https://linkedinreplication.web.app/assets/Web/Images/post.jpg\",\n        \"navItems\":[\"About\", \"Services\",\"Project\", \"Contact\"],\n        \"backgroundImage\":\"https://linkedinreplication.web.app/assets/Web/Images/post.jpg\",\n        \"heading\":\"The smartest way to buy a home\",\n        \"content\":\"hfhwhfkwe hfewfewkfk\",\n        \"belowContent\":\"ufehhwefk efiejwkf fjewijf\"\n    }\n    ",
+        "functionName": "sd_qkbu6lGFXgNlfguX",
+        "category": "Function",
+        "x": 325,
+        "y": 40,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    }
+]

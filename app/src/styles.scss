@@ -1,0 +1,136 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500&family=Roboto:wght@400;700&family=Varela+Round&display=swap');
+$red:red;
+$white:white;
+$lightGray:#c9cbcd;
+$liteblue:#f8f9fd;
+
+body{
+    background: $lightGray;
+    color:$white;
+    font-family: 'Varela Round', sans-serif;
+height: max-content;
+}
+.width100{
+    width: 100%;
+}
+.margin5{
+    margin-bottom:5em;
+}
+.hearding{
+    font-size: 70px;
+}
+.lightblueBg{
+    background:$liteblue ;
+    color: black;
+}
+.bgWhiteColorBlack{
+background:$white;
+color: black;
+}
+.bgblackColorwhite{
+background:black;
+color: $white;
+}
+.locationPanel{
+    background:$white;
+    height: 70px;
+    width: 480px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    color: black;
+    line-height:0.1 ;
+
+}
+.quoteIcon{
+    color: $red;
+    font-size: 90px;
+}
+.fontsize29{
+    font-size: 29px;
+}
+span{
+ color: $red;
+}
+.bold{
+    font-weight: bold;
+}
+.images{
+ height: 120px;
+ width: 120px;
+ border-radius: 50%;
+}
+.mat-icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    fill: currentColor ;
+    height: max-content !important;
+    width: max-content !important;
+}
+.font50{
+    font-size: 50px;
+}
+.padding20{
+    padding-bottom:88px;
+   // padding-top:20px;
+}
+.paddingTp34{
+    padding-top: 34px;
+}
+.footer{
+    background: #333;
+    color: #505050;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.paddingBt34{
+    padding-bottom: 34px;
+}
+
+.below{
+    background:$white;
+    z-index: 1;
+   // height: 40vh;
+    padding: 40px;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+.underline{
+  text-decoration: underline $white;
+}
+.width90{
+    width: 90%;
+}
+.width80{
+    width: 80%;
+}
+.GetStartedButton{
+
+ 
+ background:red;
+  color: white;
+}
+
+.mat-button{
+border-radius: 34px !important;
+}
+.backgroundImage{
+    background-image: url("https://images.adsttc.com/media/images/5f98/91e8/63c0/1782/cd00/06c3/newsletter/20251-33.jpg?1603834326");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallary{
+    padding:5px;
+    height: 350px;
+    width: 100%;
+
+}
+.searchIcon{
+    background:red; color:white;
+}
