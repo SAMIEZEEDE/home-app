@@ -40,11 +40,40 @@
         "inputs": 1,
         "outputs": 1,
         "operation": "set",
-        "globalVariables": [],
+        "globalVariables": [
+            {
+                "textIp": "images",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
         "functionName": "sd_MkS2PqkP1gqongIR",
         "category": "Function",
         "x": 180,
         "y": 30,
+        "wires": [
+            [
+                "sd_4cHFFujM8k0sSArL"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_4cHFFujM8k0sSArL",
+        "type": "Script",
+        "z": "sd_qceQFUOLQYw4SJ9Y",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.images=[\"/Web/images/kitchen.jpg\",\n\"/Web/images/officeroo..webp\"];",
+        "functionName": "sd_4cHFFujM8k0sSArL",
+        "category": "Function",
+        "x": 320,
+        "y": 40,
         "wires": [
             []
         ],

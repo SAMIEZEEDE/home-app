@@ -64,10 +64,23 @@ export class specialComponentComponent {
 
   sd_MkS2PqkP1gqongIR(bh) {
     try {
+      this.page.images = [];
+      bh = this.sd_4cHFFujM8k0sSArL(bh);
       //appendnew_next_sd_MkS2PqkP1gqongIR
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_MkS2PqkP1gqongIR');
+    }
+  }
+
+  sd_4cHFFujM8k0sSArL(bh) {
+    try {
+      const page = this.page;
+      page.images = ['/Web/images/kitchen.jpg', '/Web/images/officeroo..webp'];
+      //appendnew_next_sd_4cHFFujM8k0sSArL
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_4cHFFujM8k0sSArL');
     }
   }
 

@@ -1,42 +1,27 @@
 <div fxLayout="column wrap" class="lightblueBg" fxLayoutGap="2em" fxLayoutAlign="center center" [fxShow]="true">
-  <div fxLayout="row wrap" class="width80" fxLayoutAlign="space-between center" [fxShow]="true">
+  <div fxLayout="row wrap" class="width80" fxLayoutAlign="space-between center" [fxShow]="true" fxLayout.xs="column">
     <div fxLayout="column wrap" fxFlex="49" fxLayoutAlign="start stretch" [fxShow]="true">
       <h1>
         Explore Our Project</h1>
     </div>
     <div fxLayout="column wrap" fxFlex="49" fxLayoutAlign="start stretch" [fxShow]="true">
       <div>
-        There are many variations of passages of Lorem Ipsum available, but the<br> majority have suffered alteration in some form, by injected humour, or randomised words which<br> don&apos;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there.</div>
+        We love our residential design and build projects - big and small From full builds, major renovations or a new lease off life to individual space and create perfect place.</div>
     </div>
   </div>
   <div fxLayout="row wrap" class="width80" fxLayoutAlign="space-between center" [fxShow]="true">
-    <div fxLayout="column wrap" fxFlex="23" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/images/33.jpg" class="gallary">
+    <div fxLayout="column wrap" fxFlex="24" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let data of page.section2.housesImages"><img imgSrc="{{data.image}}" class="width100 gallary">
       <h2>
-        tittle</h2>
+        {{data.title}}
+      </h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis nisl varius, el<br><br>
-        Date</p>
+        {{data.paragraph}}<br><br>
+        {{data.date}}
+      </p>
     </div>
-    <div fxLayout="column wrap" fxFlex="23" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/images/33.jpg" class="gallary">
-      <h2>
-        tittle</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis nisl varius, el<br><br>
-        Date</p>
-    </div>
-    <div fxLayout="column wrap" fxFlex="23" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/images/33.jpg" class="gallary">
-      <h2>
-        tittle</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis nisl varius, el<br><br>
-        Date</p>
-    </div>
-    <div fxLayout="column wrap" fxFlex="23" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/images/33.jpg" class="gallary">
-      <h2>
-        tittle</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis nisl varius, el<br><br>
-        Date</p>
+  </div>
+  <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+    <div>
     </div>
   </div>
 </div>

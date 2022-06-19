@@ -19,6 +19,7 @@
             {
                 "_key": "class",
                 "_value": [
+                    "padding1em",
                     "padding20",
                     "bgWhiteColorBlack"
                 ],
@@ -33,7 +34,7 @@
             },
             {
                 "_key": "fxLayoutGap",
-                "_value": "2em",
+                "_value": "1em",
                 "_type": "kv",
                 "_attrDef": "p"
             },
@@ -123,6 +124,12 @@
                     "_value": "true",
                     "_type": "kv",
                     "_attrDef": "p"
+                },
+                {
+                    "_key": "fxLayout.xs",
+                    "_value": "column",
+                    "_type": "kv",
+                    "_attrDef": "c"
                 }
             ],
             "6e5dbb8e-46c4-43bf-fc62-37654ceef220": {
@@ -207,6 +214,7 @@
                         {
                             "_key": "class",
                             "_value": [
+                                "heightFill",
                                 "width100"
                             ],
                             "_type": "dav",
@@ -214,7 +222,7 @@
                         },
                         {
                             "_key": "imgSrc",
-                            "_value": "/Web/images/33.jpg",
+                            "_value": "/Web/images/left.jpg",
                             "_type": "kv",
                             "_attrDef": "p"
                         },

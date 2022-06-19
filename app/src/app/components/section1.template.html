@@ -4,51 +4,31 @@
       <h1>
         VEEZA</h1>
     </div>
-    <div fxLayout="column wrap" fxFlex="40" fxLayoutAlign="start stretch" [fxShow]="true">
+    <div fxLayout="column wrap" fxFlex="40" fxLayoutAlign="start stretch" [fxShow]="true" fxHide.xs="true">
       <div fxLayout="row wrap" fxLayoutAlign="space-between center" [fxShow]="true">
         <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let nav of page.section1.navItems"><label>
             {{nav}}</label></div>
       </div>
     </div>
-    <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><button mat-button class="GetStartedButton">Get Started</button></div>
+    <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><button mat-button class="GetStartedButton" fxHide.xs="true">Get Started</button></div>
   </div>
   <div fxLayout="row wrap" class="margin5 width80" fxLayoutAlign="center center" [fxShow]="true">
     <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="center center" [fxShow]="true">
-      <h1 class="hearding padding20">
-        {{title.heading}}
-      </h1>
+      <h1 ngStyle.xs="font-size:2em" class="hearding">
+        The smartest way to buy a home</h1>
       <p class="padding20">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis nisl varius, elementum massa id, <br>venenatis mi. Etiam sed lectus quis mi sagittis mollis. Nulla tempor suscipit nisl,<br> nec placerat justo ullamcorper pharetra. Phasellus sed sagittis sem. Vivamus ac tristique ligula.<br> </p>
-      <div fxLayout="row wrap" style="heigt:30px;" class="locationPanel" fxLayoutAlign="center center" [fxShow]="true">
-        <div fxLayout="column wrap" fxFlex="30" fxLayoutAlign="start center" [fxShow]="true">
+      <div fxLayout="row wrap" class="locationPanel" fxLayoutGap="10px" fxLayoutAlign="center center" [fxShow]="true" fxLayout.lt-md="column" ngClass.xs="ngsearch">
+        <div fxLayout="column " fxFlex="30" fxLayoutAlign="start center" [fxShow]="true" *ngFor="let info of page.panel">
           <div fxLayout="row wrap" fxLayoutAlign="start center" [fxShow]="true">
             <div>
-              <h3>Location</h3>
+              <h3>{{info.title}}</h3>
             </div>
-            <mat-icon>place</mat-icon>
+            <mat-icon>{{info.icon}}</mat-icon>
           </div>
           <p>
-            find destination</p>
-        </div>
-        <div fxLayout="column wrap" fxFlex="30" fxLayoutAlign="start center" [fxShow]="true">
-          <div fxLayout="row wrap" fxLayoutAlign="start center" [fxShow]="true">
-            <div>
-              <h3>Location</h3>
-            </div>
-            <mat-icon>place</mat-icon>
-          </div>
-          <p>
-            find destination</p>
-        </div>
-        <div fxLayout="column wrap" fxFlex="30" fxLayoutAlign="start center" [fxShow]="true">
-          <div fxLayout="row wrap" fxLayoutAlign="start center" [fxShow]="true">
-            <div>
-              <h3>Location</h3>
-            </div>
-            <mat-icon>place</mat-icon>
-          </div>
-          <p>
-            find destination</p>
+            {{info.decription}}
+          </p>
         </div>
         <div fxLayout="column wrap" style="background:red;" fxLayoutAlign="start stretch" [fxShow]="true">
           <mat-icon class="searchIcon">search</mat-icon>

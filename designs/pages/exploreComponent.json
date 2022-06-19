@@ -40,11 +40,40 @@
         "inputs": 1,
         "outputs": 1,
         "operation": "set",
-        "globalVariables": [],
+        "globalVariables": [
+            {
+                "textIp": "section2",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": ""
+                }
+            }
+        ],
         "functionName": "sd_Rcn7hyIsgDtbmxnA",
         "category": "Function",
         "x": 180,
         "y": 30,
+        "wires": [
+            [
+                "sd_kOiMg5NedTRCwaXT"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_kOiMg5NedTRCwaXT",
+        "type": "Script",
+        "z": "sd_Jhj9EYGW11Ljmoty",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.section2={\n        \"heading\":\"Explore Our Project\",\n        \"paragraph1\": \"We love our residential design and build projects - big and small From full builds, major renovations or a new lease off life to individual space and create perfect place.\",\n        \"housesImages\":[\n           { \n                    \"image\":\"/Web/images/indlu1.jpg\",\n                    \"title\":\"Faishore Duel Haven\",\n                    \"paragraph\":\"Manipulating the space and livingroom each apartment\",\n                    \"date\":\" January 18-2022\"\n            \n        },\n        { \n                    \"image\":\"/Web/images/indlu2.jpg\",\n                    \"title\":\"Modern Penthouse\",\n                    \"paragraph\":\"custom furnishings and window furnishing to soften the space\",\n                    \"date\":\"January 15 -2022\"\n            \n        },\n        {\n                    \"image\":\"/Web/images/indlu3.jpg\",\n                    \"title\":\"Faishore Home Garden\",\n                    \"paragraph\":\"Renovation result is a light and breezy modern home garden\",\n                    \"date\":\" January 18-2022\"\n            \n        },\n        { \n                    \"image\":\"/Web/images/indlu4.jpg\",\n                    \"title\":\"Hastings Apartment\",\n                    \"paragraph\":\"Apartment needed cosmetic changes to bring it to life\",\n                    \"date\":\"January 10-2022\"\n            \n        }\n        ]\n    }",
+        "functionName": "sd_kOiMg5NedTRCwaXT",
+        "category": "Function",
+        "x": 300,
+        "y": 40,
         "wires": [
             []
         ],

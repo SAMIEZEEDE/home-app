@@ -65,6 +65,7 @@ export class section1Component {
   sd_Bby5hbccfHYQhrnO(bh) {
     try {
       this.page.section1 = undefined;
+      this.page.panel = [];
       bh = this.sd_qkbu6lGFXgNlfguX(bh);
       //appendnew_next_sd_Bby5hbccfHYQhrnO
       return bh;
@@ -85,6 +86,23 @@ export class section1Component {
         content: 'hfhwhfkwe hfewfewkfk',
         belowContent: 'ufehhwefk efiejwkf fjewijf',
       };
+      page.panel = [
+        {
+          icon: 'place',
+          title: 'Location',
+          decription: 'find destination',
+        },
+        {
+          icon: 'local_offer',
+          title: 'Budget',
+          decription: 'Choose your budget',
+        },
+        {
+          icon: 'home',
+          title: 'Type of home',
+          decription: 'Apartment',
+        },
+      ];
 
       //appendnew_next_sd_qkbu6lGFXgNlfguX
       return bh;

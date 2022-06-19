@@ -5,10 +5,10 @@
     let&apos;s find various property and get 10% off for the first 100 people .<br>If you want to be one of the lucky few. get on it and grab it fast!</p>
   <div fxLayout="row wrap" class="width80" fxLayoutAlign="center center" [fxShow]="true">
     <div fxLayout="column wrap" fxFlex="100" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true">
-      <div fxLayout="row " fxLayoutGap="1em" fxLayoutAlign="space-between center" [fxShow]="true">
-        <div fxLayout="column wrap" fxLayoutGap="40" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/images/33.jpg" class="width100"></div>
-        <div fxLayout="column wrap" fxLayoutGap="40" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/images/33.jpg" class="width100"></div>
-      </div><img imgSrc="/Web/images/33.jpg">
+      <div fxLayout="row " style="margin-bottom:1em" fxLayoutGap="1em" fxLayoutAlign="space-between center" [fxShow]="true" fxLayout.lt-md="column">
+        <div fxLayout="column wrap" class="height300" fxFlex="49" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let pic of page.images"><img imgSrc="{{pic}}" class="heightFill width100"></div>
+      </div>
+      <div fxLayout="row wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/images/bedding1.jpg" class="width100"></div>
     </div>
   </div>
 </div>

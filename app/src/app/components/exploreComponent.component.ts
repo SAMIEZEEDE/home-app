@@ -64,10 +64,55 @@ export class exploreComponentComponent {
 
   sd_Rcn7hyIsgDtbmxnA(bh) {
     try {
+      this.page.section2 = undefined;
+      bh = this.sd_kOiMg5NedTRCwaXT(bh);
       //appendnew_next_sd_Rcn7hyIsgDtbmxnA
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_Rcn7hyIsgDtbmxnA');
+    }
+  }
+
+  sd_kOiMg5NedTRCwaXT(bh) {
+    try {
+      const page = this.page;
+      page.section2 = {
+        heading: 'Explore Our Project',
+        paragraph1:
+          'We love our residential design and build projects - big and small From full builds, major renovations or a new lease off life to individual space and create perfect place.',
+        housesImages: [
+          {
+            image: '/Web/images/indlu1.jpg',
+            title: 'Faishore Duel Haven',
+            paragraph: 'Manipulating the space and livingroom each apartment',
+            date: ' January 18-2022',
+          },
+          {
+            image: '/Web/images/indlu2.jpg',
+            title: 'Modern Penthouse',
+            paragraph:
+              'custom furnishings and window furnishing to soften the space',
+            date: 'January 15 -2022',
+          },
+          {
+            image: '/Web/images/indlu3.jpg',
+            title: 'Faishore Home Garden',
+            paragraph:
+              'Renovation result is a light and breezy modern home garden',
+            date: ' January 18-2022',
+          },
+          {
+            image: '/Web/images/indlu4.jpg',
+            title: 'Hastings Apartment',
+            paragraph: 'Apartment needed cosmetic changes to bring it to life',
+            date: 'January 10-2022',
+          },
+        ],
+      };
+      //appendnew_next_sd_kOiMg5NedTRCwaXT
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_kOiMg5NedTRCwaXT');
     }
   }
 

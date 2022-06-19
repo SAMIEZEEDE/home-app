@@ -47,6 +47,13 @@
                     "type": "literal",
                     "value": ""
                 }
+            },
+            {
+                "textIp": "panel",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
             }
         ],
         "functionName": "sd_Bby5hbccfHYQhrnO",
@@ -69,7 +76,7 @@
         "viewType": "common",
         "nodeType": "flow",
         "name": "",
-        "script": "page.section1={\n        \"logo\":\"https://linkedinreplication.web.app/assets/Web/Images/post.jpg\",\n        \"navItems\":[\"About\", \"Services\",\"Project\", \"Contact\"],\n        \"backgroundImage\":\"https://linkedinreplication.web.app/assets/Web/Images/post.jpg\",\n        \"heading\":\"The smartest way to buy a home\",\n        \"content\":\"hfhwhfkwe hfewfewkfk\",\n        \"belowContent\":\"ufehhwefk efiejwkf fjewijf\"\n    }\n    ",
+        "script": "page.section1={\n        \"logo\":\"https://linkedinreplication.web.app/assets/Web/Images/post.jpg\",\n        \"navItems\":[\"About\", \"Services\",\"Project\", \"Contact\"],\n        \"backgroundImage\":\"https://linkedinreplication.web.app/assets/Web/Images/post.jpg\",\n        \"heading\":\"The smartest way to buy a home\",\n        \"content\":\"hfhwhfkwe hfewfewkfk\",\n        \"belowContent\":\"ufehhwefk efiejwkf fjewijf\"\n    }\npage.panel=[{\n            icon:\"place\",\n            title:\"Location\",\n            decription:\"find destination\"\n        },\n        {\n            icon:\"local_offer\",\n            title:\"Budget\",\n            decription:\"Choose your budget\"\n        },{\n            icon:\"home\",\n            title:\"Type of home\",\n            decription:\"Apartment\"\n        }\n]\n    ",
         "functionName": "sd_qkbu6lGFXgNlfguX",
         "category": "Function",
         "x": 325,

@@ -629,7 +629,7 @@
                         },
                         {
                             "_key": "style",
-                            "_value": "",
+                            "_value": "margin-bottom:1em",
                             "_type": "kv",
                             "_attrDef": "p"
                         },
@@ -674,6 +674,12 @@
                             "_value": "true",
                             "_type": "kv",
                             "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxLayout.lt-md",
+                            "_value": "column",
+                            "_type": "kv",
+                            "_attrDef": "c"
                         }
                     ],
                     "8a849994-8873-6fb9-a07d-3636853ede40": {
@@ -696,19 +702,21 @@
                             },
                             {
                                 "_key": "class",
-                                "_value": "",
+                                "_value": [
+                                    "height300"
+                                ],
                                 "_type": "dav",
                                 "_attrDef": "p"
                             },
                             {
                                 "_key": "fxFlex",
-                                "_value": "",
+                                "_value": "49",
                                 "_type": "kv",
                                 "_attrDef": "p"
                             },
                             {
                                 "_key": "fxLayoutGap",
-                                "_value": "40",
+                                "_value": "",
                                 "_type": "kv",
                                 "_attrDef": "p"
                             },
@@ -735,6 +743,12 @@
                                 "_value": "true",
                                 "_type": "kv",
                                 "_attrDef": "p"
+                            },
+                            {
+                                "_key": "*ngFor",
+                                "_value": "let pic of page.images",
+                                "_type": "kv",
+                                "_attrDef": "c"
                             }
                         ],
                         "d0e29e00-4e92-5b01-9f09-6f6c9b76a938": {
@@ -758,6 +772,7 @@
                                 {
                                     "_key": "class",
                                     "_value": [
+                                        "heightFill",
                                         "width100"
                                     ],
                                     "_type": "dav",
@@ -765,139 +780,7 @@
                                 },
                                 {
                                     "_key": "imgSrc",
-                                    "_value": "/Web/images/33.jpg",
-                                    "_type": "kv",
-                                    "_attrDef": "p"
-                                },
-                                {
-                                    "_key": "alt",
-                                    "_value": "",
-                                    "_type": "kv",
-                                    "_attrDef": "p"
-                                },
-                                {
-                                    "_key": "[src]",
-                                    "_value": "",
-                                    "_type": "kv",
-                                    "_attrDef": "p"
-                                },
-                                {
-                                    "_key": "imgSecure",
-                                    "_value": "",
-                                    "_type": "a",
-                                    "_attrDef": "p"
-                                },
-                                {
-                                    "_key": "width",
-                                    "_value": "",
-                                    "_type": "kv",
-                                    "_attrDef": "p"
-                                },
-                                {
-                                    "_key": "srcset",
-                                    "_value": "",
-                                    "_type": "kv",
-                                    "_attrDef": "p"
-                                },
-                                {
-                                    "_key": "sizes",
-                                    "_value": "",
-                                    "_type": "kv",
-                                    "_attrDef": "p"
-                                }
-                            ]
-                        }
-                    },
-                    "1feb8aea-52e6-c935-2fae-ae4dfef1b195": {
-                        "paletteKey": "FlexLayoutCol",
-                        "parentEditorKey": "b0978f5c-6bad-65d8-1165-8364b2eda205",
-                        "commentid": null,
-                        "designerReference": [
-                            {
-                                "_key": "componentLabel",
-                                "_value": "Column",
-                                "_type": "kv",
-                                "_attrDef": "p",
-                                "_useAsLabel": true
-                            },
-                            {
-                                "_key": "style",
-                                "_value": "",
-                                "_type": "kv",
-                                "_attrDef": "p"
-                            },
-                            {
-                                "_key": "class",
-                                "_value": [],
-                                "_type": "dav",
-                                "_attrDef": "p"
-                            },
-                            {
-                                "_key": "fxFlex",
-                                "_value": "",
-                                "_type": "kv",
-                                "_attrDef": "p"
-                            },
-                            {
-                                "_key": "fxLayoutGap",
-                                "_value": "40",
-                                "_type": "kv",
-                                "_attrDef": "p"
-                            },
-                            {
-                                "_key": "wrap",
-                                "_value": "wrap",
-                                "_type": "a",
-                                "_attrDef": "p"
-                            },
-                            {
-                                "_key": "layoutAlign",
-                                "_value": "start",
-                                "_type": "a",
-                                "_attrDef": "p"
-                            },
-                            {
-                                "_key": "pLayoutAlign",
-                                "_value": "stretch",
-                                "_type": "a",
-                                "_attrDef": "p"
-                            },
-                            {
-                                "_key": "[fxShow]",
-                                "_value": "true",
-                                "_type": "kv",
-                                "_attrDef": "p"
-                            }
-                        ],
-                        "9f74fde2-0998-625a-fdee-02a74515e97c": {
-                            "paletteKey": "NG-image",
-                            "parentEditorKey": "1feb8aea-52e6-c935-2fae-ae4dfef1b195",
-                            "commentid": null,
-                            "designerReference": [
-                                {
-                                    "_key": "componentLabel",
-                                    "_value": "Image",
-                                    "_type": "kv",
-                                    "_attrDef": "p",
-                                    "_useAsLabel": true
-                                },
-                                {
-                                    "_key": "style",
-                                    "_value": "",
-                                    "_type": "kv",
-                                    "_attrDef": "p"
-                                },
-                                {
-                                    "_key": "class",
-                                    "_value": [
-                                        "width100"
-                                    ],
-                                    "_type": "dav",
-                                    "_attrDef": "p"
-                                },
-                                {
-                                    "_key": "imgSrc",
-                                    "_value": "/Web/images/33.jpg",
+                                    "_value": "{{pic}}",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },
@@ -941,14 +824,14 @@
                         }
                     }
                 },
-                "9ae9e962-c220-8347-a7d7-8757a2682f96": {
-                    "paletteKey": "NG-image",
+                "915fd742-efff-5207-76d5-78d2995e99c8": {
+                    "paletteKey": "FlexLayoutRow",
                     "parentEditorKey": "e8e19416-d2ea-e9e3-25fe-71a6c9042c57",
                     "commentid": null,
                     "designerReference": [
                         {
                             "_key": "componentLabel",
-                            "_value": "Image",
+                            "_value": "Row",
                             "_type": "kv",
                             "_attrDef": "p",
                             "_useAsLabel": true
@@ -961,53 +844,119 @@
                         },
                         {
                             "_key": "class",
-                            "_value": "",
+                            "_value": [
+                                "width100"
+                            ],
                             "_type": "dav",
                             "_attrDef": "p"
                         },
                         {
-                            "_key": "imgSrc",
-                            "_value": "/Web/images/33.jpg",
-                            "_type": "kv",
-                            "_attrDef": "p"
-                        },
-                        {
-                            "_key": "alt",
+                            "_key": "fxFlex",
                             "_value": "",
                             "_type": "kv",
                             "_attrDef": "p"
                         },
                         {
-                            "_key": "[src]",
+                            "_key": "fxLayoutGap",
                             "_value": "",
                             "_type": "kv",
                             "_attrDef": "p"
                         },
                         {
-                            "_key": "imgSecure",
-                            "_value": "",
+                            "_key": "wrap",
+                            "_value": "wrap",
                             "_type": "a",
                             "_attrDef": "p"
                         },
                         {
-                            "_key": "width",
-                            "_value": "",
-                            "_type": "kv",
+                            "_key": "layoutAlign",
+                            "_value": "start",
+                            "_type": "a",
                             "_attrDef": "p"
                         },
                         {
-                            "_key": "srcset",
-                            "_value": "",
-                            "_type": "kv",
+                            "_key": "pLayoutAlign",
+                            "_value": "stretch",
+                            "_type": "a",
                             "_attrDef": "p"
                         },
                         {
-                            "_key": "sizes",
-                            "_value": "",
+                            "_key": "[fxShow]",
+                            "_value": "true",
                             "_type": "kv",
                             "_attrDef": "p"
                         }
-                    ]
+                    ],
+                    "9ae9e962-c220-8347-a7d7-8757a2682f96": {
+                        "paletteKey": "NG-image",
+                        "parentEditorKey": "915fd742-efff-5207-76d5-78d2995e99c8",
+                        "commentid": null,
+                        "designerReference": [
+                            {
+                                "_key": "componentLabel",
+                                "_value": "Image",
+                                "_type": "kv",
+                                "_attrDef": "p",
+                                "_useAsLabel": true
+                            },
+                            {
+                                "_key": "style",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "class",
+                                "_value": [
+                                    "width100"
+                                ],
+                                "_type": "dav",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "imgSrc",
+                                "_value": "/Web/images/bedding1.jpg",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "alt",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "[src]",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "imgSecure",
+                                "_value": "",
+                                "_type": "a",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "width",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "srcset",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            },
+                            {
+                                "_key": "sizes",
+                                "_value": "",
+                                "_type": "kv",
+                                "_attrDef": "p"
+                            }
+                        ]
+                    }
                 }
             }
         }
