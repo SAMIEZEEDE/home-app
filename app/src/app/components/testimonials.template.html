@@ -1,14 +1,6 @@
 <div fxLayout="column wrap" class="paddingTp34 lightblueBg width100" fxLayoutGap="2em" fxLayoutAlign="center center" [fxShow]="true">
   <div fxLayout="row " class="paddingTp34 width100" fxLayoutAlign="start stretch" [fxShow]="true">
-    <div fxLayout="column wrap" fxFlex="12" fxLayoutAlign="space-between center" [fxShow]="true"><img imgSrc="/Web/images/34.jpg" class="images"></div>
-    <div fxLayout="column wrap" fxFlex="12" fxLayoutAlign="space-between center" [fxShow]="true"><img imgSrc="/Web/images/35.jpg" class="images"></div>
-    <div fxLayout="column wrap" fxFlex="12" fxLayoutAlign="space-between center" [fxShow]="true"><img imgSrc="/Web/images/36.jpg" class="images"></div>
-    <div fxLayout="column wrap" fxFlex="12" fxLayoutAlign="space-between center" [fxShow]="true"><img imgSrc="/Web/images/37.jpg" class="images"></div>
-    <div fxLayout="column wrap" fxFlex="12" fxLayoutAlign="space-between center" [fxShow]="true"><img imgSrc="/Web/images/38.jpg" class="images"></div>
-    <div fxLayout="column wrap" fxFlex="12" fxLayoutAlign="space-between center" [fxShow]="true"><img imgSrc="/Web/images/36.jpg" class="images"></div>
-    <div fxLayout="column wrap" fxFlex="12" fxLayoutAlign="space-between center" [fxShow]="true"><img imgSrc="/Web/images/37.jpg" class="images"></div>
-    <div fxLayout="column wrap" fxFlex="12" fxLayoutAlign="space-between center" [fxShow]="true"><img imgSrc="/Web/images/34.jpg" class="images"></div>
-    <div fxLayout="column wrap" fxFlex="12" fxLayoutAlign="space-between center" [fxShow]="true"><img imgSrc="/Web/images/35.jpg" class="images"></div>
+    <div fxLayout="column wrap" fxFlex="12" fxLayoutAlign="space-between center" [fxShow]="true" *ngFor="let image of page.imagesArr"><img imgSrc="{{image}}" ngClass.lt-md="imageRes" class="images"></div>
   </div>
   <div fxLayout="row wrap" class="width90" fxLayoutAlign="center center" [fxShow]="true">
     <h1 class="font50 width80">
@@ -41,13 +33,13 @@
           <div>
             <hr class="solid">
           </div>
-          <div fxLayout="row wrap" class="width100" fxLayoutAlign="space-between start" [fxShow]="true">
+          <div fxLayout="row wrap" class="width100" fxLayoutAlign="space-between start" [fxShow]="true" fxLayout.lt-md="column">
             <div fxLayout="column wrap" fxLayoutGap="45" fxLayoutAlign="start start" [fxShow]="true">
               <h1>
                 veeza</h1>
             </div>
             <div fxLayout="column wrap" fxFlex="52" fxLayoutAlign="start start" [fxShow]="true">
-              <div fxLayout="row wrap" class="width100" fxLayoutGap="1em" fxLayoutAlign="space-between start" [fxShow]="true">
+              <div fxLayout="row wrap" class="width100" fxLayoutGap="1em" fxLayoutAlign="space-between start" [fxShow]="true" fxLayout.lt-md="column">
                 <div fxLayout="column wrap" fxFlex="29" fxLayoutAlign="center start" [fxShow]="true">
                   <div>
                     TechnologyPark<br>8-14MarieCurieStreet<br>08042Barcelona</div>
@@ -65,7 +57,7 @@
           </div>
         </div>
       </div>
-      <div fxLayout="row wrap" class="width100 footer" fxLayoutAlign="space-around center" [fxShow]="true">
+      <div fxLayout="row wrap" class="width100 footer" fxLayoutAlign="space-around center" [fxShow]="true" fxLayout.lt-md="column">
         <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
           <div>
             since2022</div>

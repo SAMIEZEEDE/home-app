@@ -723,7 +723,7 @@
                 },
                 {
                     "_key": "wrap",
-                    "_value": "wrap",
+                    "_value": "",
                     "_type": "a",
                     "_attrDef": "p"
                 },
@@ -744,6 +744,18 @@
                     "_value": "true",
                     "_type": "kv",
                     "_attrDef": "p"
+                },
+                {
+                    "_key": "ngClass.lt-md",
+                    "_value": "respImage",
+                    "_type": "kv",
+                    "_attrDef": "c"
+                },
+                {
+                    "_key": "fxLayoutGap.lt-md",
+                    "_value": "1em",
+                    "_type": "kv",
+                    "_attrDef": "c"
                 }
             ],
             "7c411c3f-b8f9-34d3-9463-25e40485cae1": {
@@ -809,6 +821,12 @@
                     {
                         "_key": "*ngFor",
                         "_value": "let data of page.section2.housesImages",
+                        "_type": "kv",
+                        "_attrDef": "c"
+                    },
+                    {
+                        "_key": "fxFlex.lt-md",
+                        "_value": "292px",
                         "_type": "kv",
                         "_attrDef": "c"
                     }

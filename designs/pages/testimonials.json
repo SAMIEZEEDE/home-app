@@ -40,11 +40,40 @@
         "inputs": 1,
         "outputs": 1,
         "operation": "set",
-        "globalVariables": [],
+        "globalVariables": [
+            {
+                "textIp": "imagesArr",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
         "functionName": "sd_QxLVToqNRuupUMyu",
         "category": "Function",
         "x": 180,
         "y": 30,
+        "wires": [
+            [
+                "sd_DWhw73lZYeXV5Ck0"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_DWhw73lZYeXV5Ck0",
+        "type": "Script",
+        "z": "sd_pyfZ50Qz43OHobL2",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.imagesArr=[\"/Web/images/34.jpg\",\"/Web/images/35.jpg\",\"/Web/images/36.jpg\",\"/Web/images/37.jpg\",\"/Web/images/38.jpg\",\"/Web/images/34.jpg\",\"/Web/images/35.jpg\",\"/Web/images/36.jpg\",\"/Web/images/38.jpg\"];",
+        "functionName": "sd_DWhw73lZYeXV5Ck0",
+        "category": "Function",
+        "x": 320,
+        "y": 40,
         "wires": [
             []
         ],

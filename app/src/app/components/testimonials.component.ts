@@ -64,10 +64,33 @@ export class testimonialsComponent {
 
   sd_QxLVToqNRuupUMyu(bh) {
     try {
+      this.page.imagesArr = [];
+      bh = this.sd_DWhw73lZYeXV5Ck0(bh);
       //appendnew_next_sd_QxLVToqNRuupUMyu
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_QxLVToqNRuupUMyu');
+    }
+  }
+
+  sd_DWhw73lZYeXV5Ck0(bh) {
+    try {
+      const page = this.page;
+      page.imagesArr = [
+        '/Web/images/34.jpg',
+        '/Web/images/35.jpg',
+        '/Web/images/36.jpg',
+        '/Web/images/37.jpg',
+        '/Web/images/38.jpg',
+        '/Web/images/34.jpg',
+        '/Web/images/35.jpg',
+        '/Web/images/36.jpg',
+        '/Web/images/38.jpg',
+      ];
+      //appendnew_next_sd_DWhw73lZYeXV5Ck0
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_DWhw73lZYeXV5Ck0');
     }
   }
 

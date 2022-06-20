@@ -9,8 +9,8 @@
         We love our residential design and build projects - big and small From full builds, major renovations or a new lease off life to individual space and create perfect place.</div>
     </div>
   </div>
-  <div fxLayout="row wrap" class="width80" fxLayoutAlign="space-between center" [fxShow]="true">
-    <div fxLayout="column wrap" fxFlex="24" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let data of page.section2.housesImages"><img imgSrc="{{data.image}}" class="width100 gallary">
+  <div fxLayout="row " class="width80" fxLayoutAlign="space-between center" [fxShow]="true" ngClass.lt-md="respImage" fxLayoutGap.lt-md="1em">
+    <div fxLayout="column wrap" fxFlex="24" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let data of page.section2.housesImages" fxFlex.lt-md="292px"><img imgSrc="{{data.image}}" class="width100 gallary">
       <h2>
         {{data.title}}
       </h2>

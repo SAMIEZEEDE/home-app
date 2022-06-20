@@ -66,10 +66,19 @@ color: $white;
 .bold{
     font-weight: bold;
 }
+.respImage{
+    align-items: normal !important;
+    overflow-x: scroll;
+}
 .images{
  height: 120px;
  width: 120px;
  border-radius: 50%;
+}
+.imageRes {
+    height: 34px;
+    width: 35px;
+    border-radius: 50%;
 }
 .mat-icon {
     background-repeat: no-repeat;
